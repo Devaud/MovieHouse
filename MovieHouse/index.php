@@ -7,11 +7,35 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title> MovieHouse </title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <section id="page">
+            <section class="sec-sup">
+                
+            </section>
+            <section class="sec-left">
+                
+            </section>
+            
+            <section class="contenu">
+                
+                <section class="box">
+                    <section class="box-header">
+                        
+                    </section>
+                    
+                    <section class="box-body">
+                        da
+                    </section>
+                    
+                    <section class="box-footer">
+                        
+                    </section>
+                </section>
+                
+            </section>
+        </section>
     </body>
 </html>
