@@ -170,4 +170,6 @@ html, body{
 
 .nav-sup ul li a:hover{
     background-color: #333;
+    font-size: 20px;
+    padding-bottom: 12px;
 }

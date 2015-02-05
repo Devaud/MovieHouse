@@ -16,19 +16,19 @@ and open the template in the editor.
                 <nav class="nav-sup">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="./index.php?page=home">Home</a>
                         </li>
                         <li>
-                            <a href="#">Films</a>
+                            <a href="./index.php?page=films">Films</a>
                         </li>
                         <li>
-                            <a href="#">Séries</a>
+                            <a href="./index.php?page=series">Séries</a>
                         </li>
                         <li>
-                            <a href="#">Animes</a>
+                            <a href="./index.php?page=animes">Animes</a>
                         </li>
                         <li>
-                            <a href="#">Demande de films, séries, animes</a>
+                            <a href="./index.php?page=demande">Demande de films, séries, animes</a>
                         </li>
                     </ul>
                 </nav>
@@ -36,7 +36,6 @@ and open the template in the editor.
             </section>
 
             <section class="contenu">
-
                 <section class="box">
                     <section class="box-header">
                         <h2>Nouveaux films</h2>
@@ -85,9 +84,6 @@ and open the template in the editor.
 
                     </section>
                 </section>
-
-
-
 
             </section>
         </section>
