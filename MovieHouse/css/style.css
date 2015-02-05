@@ -13,6 +13,9 @@ html, body{
     padding: 0px;
     outline: 0px;
     height: 100%;
+    background-color: #E2F6FD;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 #page{
@@ -24,7 +27,7 @@ html, body{
     width: 100%;
     height: 5%;
 
-    background-color: #333333;
+    background-color: #05B5F0;
 }
 
 .sec-left{
@@ -33,7 +36,7 @@ html, body{
 
     float: left;
 
-    background-color: #333333;
+    background-color: #05B5F0;
 }
 
 .contenu{
@@ -41,82 +44,105 @@ html, body{
     height: 95%;
 
     float: right;
-
-    background-color: #666666;
 }
 
 .box{
-    width: 40%;
-    height: 50%;
+    /*width: 40%;
+    height: 50%;*/
+    
+    width: 650px;
+    height: 400px;
 
     margin-left: 4%;
     margin-top: 4%;
 
     float: left;
 
-    border: 1px #777777 solid;
+    border: 1px #D0D0D0 solid;
 }
 
 .box-header{
-    width: 100%;
-    height: 10%;
+    /*width: 100%;
+    height: 10%;*/
+    
+    width: 650px;
+    height: 40px;
+    
+    border-bottom: 1px #D0D0D0 solid;
 
-    border-bottom: 1px #777777 solid;
-
-    background-color: #0066cc;
+    background-image: url(../ressources/cellh2.png);
+    background-repeat: repeat-x;
 }
 
 .box-body{
-    width: 100%;
-    height: 90%;
+    /*width: 100%;
+    height: 90%;*/
+    width: 650px;
+    height: 350px;
 }
 
 .artic{
-    width: 95%;
-    height: 40%;
-    border: 1px #777777 solid;
+    /*width: 95%;
+    height: 33%;*/
+    
+    width: 620px;
+    height: 120px;
+    
+    border: 1px #D0D0D0 solid;
     margin: auto;
     margin-top: 1%;
 
+    background-color: white;
 }
 
 .artic-affiche{
-    width: 25%;
-    height: 100%;
+    /*width: 25%;
+    height: 100%;*/
+    
+    width: 150px;
+    height: 120px;
 
     float: left;
 
-    border-right: 1px blue solid;
+    border-right: 1px #D0D0D0 solid;
 }
 
 .artic-contenu{
-    width: 74.6%;
-    height: 100%;
+    /*width: 74.6%;
+    height: 100%;*/
+    
+    width: 469px;
+    height: 120px;
 
     float: right;
-
-    background: yellow;
+    
+    font-size: 14px;
 }
-
+/*
 .artic .artic-contenu a{
     margin-left: 80%;
-    
     padding: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    
+
     text-decoration: none;
-    
-    border: 1px blue solid;
-    
-    background-color: blanchedalmond;
+    color: white;
+    font-weight: bold;
+
+    background-color: #3B81DE;
 }
 
 .artic .artic-contenu a:hover{
-    font-size: 18px;
-    color: red;
-    background: blue;
-    
+    background: #479ED7;
+    color: black;
+
+}*/
+
+.artic-contenu ul{
+    /*list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin: 2%;*/
 }
 
 .picture{
