@@ -27,10 +27,19 @@ and open the template in the editor.
                     </section>
                     
                     <section class="box-body">
-                        da
-                    </section>
-                    
-                    <section class="box-footer">
+                        
+                        <article class="artic">
+                            <section class="artic-affiche">
+                                <img src="./ressources/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
+                            </section>
+                            <section class="artic-contenu">
+                                <ul>
+                                    <li>Titre : The Hobbit</li>
+                                    <li>Synopsis : Dans UN VOYAGE INATTENDU, Bilbon Sacquet cherche à reprendre le Royaume perdu des Nains d'Erebor, conquis par le redoutable dragon Smaug. ...</li>
+                                </ul>
+                                <a href="#">Lire plus</a>
+                            </section>
+                        </article>
                         
                     </section>
                 </section>
