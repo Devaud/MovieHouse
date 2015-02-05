@@ -19,7 +19,16 @@ and open the template in the editor.
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#">Films</a>
+                        </li>
+                        <li>
+                            <a href="#">Séries</a>
+                        </li>
+                        <li>
+                            <a href="#">Animes</a>
+                        </li>
+                        <li>
+                            <a href="#">Demande de films, séries, animes</a>
                         </li>
                     </ul>
                 </nav>
@@ -30,7 +39,7 @@ and open the template in the editor.
 
                 <section class="box">
                     <section class="box-header">
-                        <h2>Nouveauter film</h2>
+                        <h2>Nouveaux films</h2>
                     </section>
 
                     <section class="box-body">

@@ -150,8 +150,7 @@ html, body{
     padding: 0px;
     list-style: none;
     text-align: center;
-    margin-left: 100px;
-
+    margin-left: 33%;
 }
 
 .nav-sup ul li{
@@ -165,6 +164,7 @@ html, body{
     display: block;
     float: left;
     padding: 15px;
+    padding-bottom: 17px;
     text-shadow: #264013 0 1px 1px;
 }
 
