@@ -9,8 +9,11 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/style.css" />
         <title> MovieHouse </title>
+        <script src='./js/jquery-2.1.3.min.js'></script>
+        <script src='./js/jscript.js'></script>
     </head>
     <body>
+        <!-- CONTENU DE LA PAGE -->
         <section id="page">
             <section class="sec-sup">
                 <nav class="nav-sup">
@@ -28,7 +31,7 @@ and open the template in the editor.
                             <a href="./index.php?page=animes">Animes</a>
                         </li>
                         <li>
-                            <a href="./index.php?page=demande">Demande de films, séries, animes</a>
+                            <a href="#" data-rel="popup-demande" data-width="500" class="poplight">Demande de films, séries, animes</a>
                         </li>
                     </ul>
                 </nav>
@@ -87,5 +90,13 @@ and open the template in the editor.
 
             </section>
         </section>
+        <!-- FIN DU CONTENU DE LA PAGE -->
+
+        <!-- POPUP -->
+        <section id='popup-demande' class='popup-block'>
+            <h2>Test</h2>
+            <p>d,slaé,dsé</p>
+        </section>
+        <!-- FIN DE LA POPUP -->
     </body>
 </html>
