@@ -235,3 +235,33 @@ img.btn_close {
 }
 
 /* FIN CSS POPUP*/
+
+/* CSS FROM */
+
+.sForm-sec{
+    margin-bottom: 20px;
+}
+
+.sForm-sec label{
+    font-size: 15px;
+    font-weight: bold;
+    
+    width: 500px;
+}
+
+.sForm-sec input{
+    width: 200px;
+    border: #264013 solid 2px;
+    border-radius: 2px;
+}
+
+.sForm-sec input:hover{
+    border-color: #05B5F0;
+}
+
+.sForm-sec input:focus{
+    border-color: Red;
+}
+
+
+/* FIN CSS FORM */

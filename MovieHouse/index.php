@@ -31,7 +31,7 @@ and open the template in the editor.
                             <a href="./index.php?page=animes">Animes</a>
                         </li>
                         <li>
-                            <a href="#" data-rel="popup-demande" data-width="500" class="poplight">Demande de films, séries, animes</a>
+                            <a href="#" data-rel="popup-demande" data-width="700" class="poplight">Demande de films, séries, animes</a>
                         </li>
                     </ul>
                 </nav>
@@ -94,8 +94,18 @@ and open the template in the editor.
 
         <!-- POPUP -->
         <section id='popup-demande' class='popup-block'>
-            <h2>Test</h2>
-            <p>d,slaé,dsé</p>
+            <h2>Demande de films, séries, animes</h2>
+            <form method="post" action="" class='sForm'>
+                <section class='sForm-sec'>
+                    <label>Nom :</label>
+                    <input type="text" name="nom" placeholder="The hobbit" />
+                </section>
+
+                <section class='sForm-sec'>
+                    <label>Description :</label>
+                    <textarea row="3" placeholder="Qu'est-ce ? Plus détailer"></textarea>
+                </section>
+            </form>
         </section>
         <!-- FIN DE LA POPUP -->
     </body>
