@@ -101,9 +101,38 @@ and open the template in the editor.
                     <input type="text" name="nom" placeholder="The hobbit" />
                 </section>
 
+                <section class="sForm-sec">
+                    <label>Type :</label>
+                    <select class="type">
+                        <option>Films</option>
+                        <option>Séries</option>
+                        <option>Animes</option>
+                    </select>
+                </section>
+                
+                <section class="sForm-sec films series">
+                    <label>Qualité :</label>
+                    <select>
+                        <option>TS cam</option>
+                        <option>HD 720p</option>
+                        <option>HD 1080p</option>
+                    </select>
+                </section>
+                
+                <section class="sForm-sec films series">
+                    <label>Langue :</label>
+                    <select>
+                        <option>VOSTFR</option>
+                        <option>VO</option>
+                        <option>VFF</option>
+                        <option>VFQ</option>
+                        <option>VVF</option>
+                    </select>
+                </section>
+
                 <section class='sForm-sec'>
                     <label>Description :</label>
-                    <textarea row="3" placeholder="Qu'est-ce ? Plus détailer"></textarea>
+                    <textarea rows="4" placeholder="Qu'est-ce ? Plus détailé !"></textarea>
                 </section>
             </form>
         </section>

@@ -23,13 +23,6 @@ html, body{
     width: 100%;
 }
 
-.sec-sup{
-    width: 100%;
-    height: 50px;
-
-    background-color: #05B5F0;
-}
-
 .contenu{
     width: 100%;
     height: auto;
@@ -151,6 +144,14 @@ html, body{
     margin-right: 23px;
 }
 
+/* CSS MENU */
+.sec-sup{
+    width: 100%;
+    height: 50px;
+
+    background-color: #05B5F0;
+}
+
 .nav-sup{
     width: 100%;
     height: 49px;
@@ -185,7 +186,7 @@ html, body{
     font-size: 20px;
     padding-bottom: 12px;
 }
-
+/* FIN CSS MENU */
 
 /* CSS POPUP */
 #fade{/*Masque opaque noir de fond*/
@@ -246,22 +247,31 @@ img.btn_close {
     font-size: 15px;
     font-weight: bold;
     
-    width: 500px;
+    display: block;
+    width: 125px;
+    
+    margin-left: 10%;
+    
+    float: left;
 }
 
-.sForm-sec input{
+.sForm-sec input, textarea, select{
     width: 200px;
-    border: #264013 solid 2px;
+    border: #cccccc solid 2px;
     border-radius: 2px;
 }
 
-.sForm-sec input:hover{
+.sForm-sec input:hover, textarea:hover, select:hover{
     border-color: #05B5F0;
 }
 
-.sForm-sec input:focus{
-    border-color: Red;
+.sForm-sec input:focus, textarea:focus, select:focus{
+    border-color: #66ccff;
+    border-width: 2px;
 }
 
+.films{
+    display: none;
+}
 
 /* FIN CSS FORM */

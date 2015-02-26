@@ -7,7 +7,7 @@
 // Fonction qui gère les popups
 function popup() {
     //Lorsque vous cliquez sur un lien de la classe poplight
-    $('a.poplight').on('click', function() {
+    $('a.poplight').on('click', function () {
         var popID = $(this).data('rel'); //Trouver la pop-up correspondante
         var popWidth = $(this).data('width'); //Trouver la largeur
 
@@ -33,8 +33,8 @@ function popup() {
 
 
     //Close Popups and Fade Layer
-    $('body').on('click', 'a.close, #fade', function() { //Au clic sur le body...
-        $('#fade , .popup-block').fadeOut(function() {
+    $('body').on('click', 'a.close, #fade', function () { //Au clic sur le body...
+        $('#fade , .popup-block').fadeOut(function () {
             $('#fade, a.close').remove();
         }); //...ils disparaissent ensemble
 
@@ -42,6 +42,25 @@ function popup() {
     });
 }
 
-jQuery(function($) {
+function fieldsForm() {
+    $('.type').change(function () {
+        var str = "";
+
+        $(".type option:selected").each(function () {
+            str = $(this).text();
+        });
+        
+        if (str == "Films") {
+            $('.films').fadeIn();
+        } else {
+            $('.films').fadeOut();
+        }
+
+        return false;
+    });
+}
+
+jQuery(function ($) {
     popup();
+    fieldsForm();
 });
