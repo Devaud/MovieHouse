@@ -246,12 +246,12 @@ img.btn_close {
 .sForm-sec label{
     font-size: 15px;
     font-weight: bold;
-    
+
     display: block;
     width: 125px;
-    
+
     margin-left: 10%;
-    
+
     float: left;
 }
 
@@ -270,8 +270,54 @@ img.btn_close {
     border-width: 2px;
 }
 
+.sForm-Button{
+    text-align: right;
+}
+
 .films{
-    display: none;
+    display: block;
 }
 
 /* FIN CSS FORM */
+
+/* CSS BUTTON */
+
+.btn{
+    height: 25px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+
+    font-family: 'Arial';
+    font-weight: bold;
+    color: white;
+}
+
+.btn-default{
+    border-color: #05B5F0;
+    background: #05B5F0;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-default:hover{
+    border-color: #0066ff;
+    background: #0066ff;
+}
+
+.btn-annuler{
+    border-color: #ff0000;
+    background: #ff0000;
+}
+
+.btn-annuler:hover{
+    border-color: #990000;
+    background: #990000;
+}
+
+
+
+/* FIN CSS BUTTON */

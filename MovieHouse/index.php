@@ -110,7 +110,7 @@ and open the template in the editor.
                     </select>
                 </section>
                 
-                <section class="sForm-sec films series">
+                <section class="sForm-sec films">
                     <label>Qualité :</label>
                     <select>
                         <option>TS cam</option>
@@ -119,20 +119,25 @@ and open the template in the editor.
                     </select>
                 </section>
                 
-                <section class="sForm-sec films series">
+                <section class="sForm-sec">
                     <label>Langue :</label>
                     <select>
                         <option>VOSTFR</option>
                         <option>VO</option>
-                        <option>VFF</option>
-                        <option>VFQ</option>
-                        <option>VVF</option>
+                        <option class="films">VFF</option>
+                        <option class="films">VFQ</option>
+                        <option class="films">VVF</option>
                     </select>
                 </section>
 
                 <section class='sForm-sec'>
                     <label>Description :</label>
                     <textarea rows="4" placeholder="Qu'est-ce ? Plus détailé !"></textarea>
+                </section>
+                
+                <section class="sForm-Button">
+                    <button type="submit" name="valider" class="btn btn-default">Envoyer la demande</button>
+                    <button type="reset" class="annuler btn btn-annuler">Annuler</button>
                 </section>
             </form>
         </section>
