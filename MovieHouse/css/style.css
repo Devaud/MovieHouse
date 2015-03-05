@@ -58,7 +58,7 @@ html, body{
 
     border-bottom: 1px #D0D0D0 solid;
 
-    background-image: url(../ressources/cellh2.png);
+    background-image: url(../res/cellh2.png);
     background-repeat: repeat-x;
 }
 
@@ -227,6 +227,16 @@ img.btn_close {
     margin: -55px -55px 0 0;
 }
 
+.cacher{
+    display: none;
+}
+
+.error-message{
+    font-weight: bold;
+    font-size: 13px;
+    color: red;
+}
+
 /*--Gérer la position fixed pour IE6--*/
 *html #fade {
     position: absolute;
@@ -257,8 +267,13 @@ img.btn_close {
 
 .sForm-sec input, textarea, select{
     width: 200px;
+    height: 22px;
     border: #cccccc solid 2px;
     border-radius: 2px;
+}
+
+sForm-sec textarea{
+    height: 50px;
 }
 
 .sForm-sec input:hover, textarea:hover, select:hover{
