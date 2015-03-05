@@ -48,7 +48,7 @@ and open the template in the editor.
 
                         <article class="artic">
                             <section class="artic-affiche">
-                                <img src="./ressources/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
+                                <img src="./res/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
                             </section>
                             <section class="artic-contenu">
                                 <ul>
@@ -61,7 +61,7 @@ and open the template in the editor.
 
                         <article class="artic">
                             <section class="artic-affiche">
-                                <img src="./ressources/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
+                                <img src="./res/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
                             </section>
                             <section class="artic-contenu">
                                 <ul>
@@ -74,7 +74,7 @@ and open the template in the editor.
 
                         <article class="artic">
                             <section class="artic-affiche">
-                                <img src="./ressources/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
+                                <img src="./res/bilbo-the-hobbit-affiche-film-1.jpg" alt="the hobbit" class="picture"/>
                             </section>
                             <section class="artic-contenu">
                                 <ul>
@@ -98,7 +98,8 @@ and open the template in the editor.
             <form method="post" action="" class='sForm'>
                 <section class='sForm-sec'>
                     <label>Nom :</label>
-                    <input type="text" name="nom" placeholder="The hobbit" />
+                    <input type="text" name="nom" id="nom" placeholder="The hobbit" />
+                    <section class="error-message">Error</section>
                 </section>
 
                 <section class="sForm-sec">
@@ -109,34 +110,14 @@ and open the template in the editor.
                         <option>Animes</option>
                     </select>
                 </section>
-                
-                <section class="sForm-sec films">
-                    <label>Qualité :</label>
-                    <select>
-                        <option>TS cam</option>
-                        <option>HD 720p</option>
-                        <option>HD 1080p</option>
-                    </select>
-                </section>
-                
-                <section class="sForm-sec">
-                    <label>Langue :</label>
-                    <select>
-                        <option>VOSTFR</option>
-                        <option>VO</option>
-                        <option class="films">VFF</option>
-                        <option class="films">VFQ</option>
-                        <option class="films">VVF</option>
-                    </select>
-                </section>
 
                 <section class='sForm-sec'>
-                    <label>Description :</label>
+                    <label>Détails :</label>
                     <textarea rows="4" placeholder="Qu'est-ce ? Plus détailé !"></textarea>
                 </section>
                 
                 <section class="sForm-Button">
-                    <button type="submit" name="valider" class="btn btn-default">Envoyer la demande</button>
+                    <button type="submit" name="valider" id="envoyer" class="btn btn-default">Envoyer la demande</button>
                     <button type="reset" class="annuler btn btn-annuler">Annuler</button>
                 </section>
             </form>
